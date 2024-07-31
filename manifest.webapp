@@ -1,0 +1,31 @@
+{
+  "version": "0.0.1",
+  "name": "Installed apps",
+  "description": "KaiOS pre-installed application manager",
+  "launch_path": "/index.html",
+  "type": "certified",
+  "icons": {
+    "56": "/img/icon56.png",
+    "112": "/img/icon112.png"
+  },
+  "developer": {
+    "name": "Luxferre"
+  },
+  "origin": "app://buster.luxferre.top",
+  "fullscreen": true,
+  "permissions": {
+    "webapps-manage": {
+      "description": "mozApps.mgmt"
+    }
+  },
+    "locales": {
+        "en-US": {
+            "name": "Installed apps",
+            "subtitle": "Get Apps Origin",
+            "description": "KaiOS pre-installed application manager"
+        }
+    },
+    "default_locale": "en-US",
+  "theme_color": "#8702fb",
+  "cursor": true
+}
